@@ -27,7 +27,7 @@ t2 = (3, 4)
 t3 = t1 + t2
 print(t3)
 
-# sort, insert, remove, pop과 같은 내장 함수가 없다.
+# sort, insert, remove, pop과 같은 내장 함수 가 없다.
 
 # 리스트 + 튜플은 할수 없다. TypeError: can only concatenate tuple (not "list") to tuple
 # t1 = (1, 2, 'a', 'b')
