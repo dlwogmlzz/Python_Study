@@ -47,5 +47,27 @@ print(d)
 
 # 인덱스 반환
 f = [1, 2, 3]
-print(f.index(4))
+print(f.index(2)) # f안에 2가 몇번째 인덱스 인지 출력
+
+# 리스트 요소에 삽입 - insert
+g = [4, 5, 6, 8, 6, 10]
+g.insert(3, 7)
+print(g) # 두번째 요소부터 4를 삽입
+g.remove(6) # 맨처음 6을 삭제
+print(g)
+
+g.pop()
+print(g) # 맨끝의 숫자 10을 날린 나머지 숫자들 출력
+print(g.pop()) # 맨끝의 숫자를 출력
+
+# 리스트에 포함된 요소 x의 개수 세기 - count
+h = [1, 1, 2, 2, 3, 3, 1, 4, 5, 6]
+print(h.count(1))
+
+# 리스트 확장 - extend
+i = ['a', 'b', 'c']
+i.append(['d', 'e']) # 리스트가 그대로 추가됨
+print(i)
+i.extend(['d', 'e'])
+print(i)
 
